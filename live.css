@@ -1,3 +1,58 @@
 .livey{
     display: flex;
+    background-image: url("image folder/pexels-pavel-danilyuk-8775036.jpg");
+    position: fixed;
+    width: 100%;
+}
+body{
+    margin: 0%;
+}
+.livecontent{
+    padding-top: 150px;
+    width: 50vw;
+
+    h4{
+        color: white;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        font-weight: lighter;
+    }
+    h1{
+        color:rgb(231, 86, 34);
+        font-weight: lighter;
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+    }
+    img{
+        display: flex;
+        justify-content: center;
+        padding-left: 290px;
+    }
+}
+.live{
+    width: 50vw;
+}
+.livefadhilee{
+    display: flex;
+    p{
+        color: rgb(224, 88, 39);
+    }
+    img{
+        
+    }
+
+}
+.liveochiko{
+    display: flex;
+    p{
+        color: rgb(224, 88, 39);
+    }
+}
+.livejack{
+    display: flex;
+    p{
+        color: rgb(224, 88, 39);
+    }
 }
