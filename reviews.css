@@ -1,0 +1,80 @@
+.review {
+    display: none; 
+    padding: 20px;
+    
+  }
+  .review:first-child {
+    display: block; 
+  }
+  body{
+    margin: 0%;
+    margin-bottom: -10%;
+    position: fixed;
+    padding-bottom: 0%;
+
+  }
+  .review{
+    h1{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+  }
+  #prev{
+    padding-left: 350px;
+    color: orangered;
+  }
+  #next{
+   display: flex;
+   justify-content: right;
+    color: orangered;
+    padding-right: 350px;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+     justify-content: flex-end;
+    color: white;
+    gap:10px;
+}
+
+.nav-bottom{
+    width: 50%;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    border-radius: 30px; 
+    padding-top: 30px;   
+}
+.nav-bottom a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:10px 14px 10px ;
+}
+.reviewpage{
+    background-color: rgb(19, 18, 18);
+    width: 100vw;
+    position: fixed;
+    height: 45vw;
+
+}
