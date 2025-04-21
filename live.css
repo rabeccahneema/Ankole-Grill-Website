@@ -10,6 +10,7 @@ body{
 .livecontent{
     padding-top: 150px;
     width: 50vw;
+    /* gap: 5cm; */
 
     h4{
         color: white;
@@ -29,6 +30,7 @@ body{
         display: flex;
         justify-content: center;
         padding-left: 290px;
+        
     }
 }
 .live{
@@ -36,23 +38,56 @@ body{
 }
 .livefadhilee{
     display: flex;
+    gap: 1cm;
     p{
         color: rgb(224, 88, 39);
     }
-    img{
+    img:hover{
+        transform: scale(1.1);
         
+    }
+    h1{
+        color: white;
+        font-weight: lighter;
     }
 
 }
 .liveochiko{
     display: flex;
+    gap: 1cm;
     p{
         color: rgb(224, 88, 39);
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+    h1{
+        color: white;
+        font-weight: lighter;
     }
 }
 .livejack{
     display: flex;
+    gap: 1cm;
     p{
         color: rgb(224, 88, 39);
     }
+    img:hover{
+        transform: scale(1.1);
+    }
+    h1{
+        color: white;
+        font-weight: lighter;
+    }
+}
+.fadh{
+    padding-top: 30px;
+
+}
+.ochiko{
+    padding-top: 30px;
+
+}
+.jack{
+    padding-top: 30px;
 }
