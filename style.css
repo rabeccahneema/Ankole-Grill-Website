@@ -1,6 +1,7 @@
+
 .homepage{
     width: 100vw;
-    height: 45vw;
+    height: 45.21vw;
     background-size: cover;
     background-repeat: no-repeat;
     animation: homepage 15s ease-in-out infinite;
@@ -41,424 +42,40 @@ body{
     
 }
 .nav-bottom{
-    width: 50%;
-    position: fixed;
-    bottom: 0;
+    border: solid 0px;
     background-color: black;
-    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin-left: 30%;
+    gap: 1cm;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 10px;
+    padding-top:10px ;
+    bottom: 0;
+    overflow: hidden;
+    position: fixed;
+    padding: 20px ;
     margin-bottom: 30px;
-    border-radius: 30px; 
-    padding-top: 30px;   
+    a:hover{
+        transform: scale(1);
+        color: rgb(17, 17, 17);
+       }
+   
 }
 .nav-bottom a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
     text-decoration: none;
-    padding:10px 14px 10px ;
+    color: white;
+ 
 }
-#reservations{
+ #reservations{
     background-color: gray;
     border-radius: 30px;
-    
-    margin: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-.icons{
-
-}
-.menu{
-    display: flex;
-    position: relative;
-}
-.menuKitisuru{
-    background-image: url("image folder/AdobeStock_1153353992_Preview.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50vw;
-    height: 45vw;
-    
+    padding-left: 10px;
+    padding-right: 10px;
+  
    
 }
-.menuKitisuru h3{
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    color: orange;
-    padding-top: 200px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.menuKitisuru h1{
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    color: white;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-weight: bolder;
-}
-.menuKitisuru a{
-    display: flex;
-    justify-content: center;
-    color: rgb(247, 241, 241);
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   text-underline-offset: none;
-   font-size: 20px;
- 
-
-}
-.menuKilimani{
-    background-image: url("image folder/AdobeStock_1182679964_Preview.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 50vw;
-    height: 45vw;
-}
-.menuKilimani h3{
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    color: orange;
-    padding-top: 200px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-.menuKilimani h1{
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    color: white;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-weight: bolder;
-
-}
-.menuKilimani a{
-    display: flex;
-    justify-content: center;
-    color: rgb(253, 248, 248);
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   text-underline-offset: none;
-   font-size: 20px;
 
 
-}
-.menupagelogo{
-    position: absolute; 
-}
-.menuicons{
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-   
-}
-.kitisuru{
-    display: flex;
-}
-.picture{
-    background-image: url("image folder/pexels-rachel-claire-4997999.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 98vw;
-    height: 45vw;
-    
-}
-.picture img{
-    width: 200px;
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    padding-left: 300px;
-
-}
-.picture h3{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: lighter;
-    color: rgb(63, 62, 62);
-    font-family: Arial, Helvetica, sans-serif;
-
-
-
-}
-.picture h1{
-    display: flex;
-    justify-content: center;
-    font-size: 60px;
-   color: rgb(235, 89, 36);
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: lighter;
-
-}
-.menudetails{
-    background-color: rgb(34, 33, 33);
-    width: 98vw;
-    height: 45vw;
-    overflow: auto;
-}
-
-.menunav a{
-    color: rgb(216, 84, 36);
-     padding-left: 80px;
-     text-decoration: none;
-    
-}
-.breakfast h2{
-    color: rgb(248, 247, 246);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: light;
-    padding-left: 20px;
-    padding-top: 20px; 
-}
-.breakfast p{
-    color: rgb(248, 247, 246);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: light;
-    padding-left: 20px;
-    /* padding-top: 20px;  */
-}
-.firstbreakfast{
-    display: flex;
-    justify-content: space-between;
-}
-.firstbreakfast img{
-       padding-left: 30px;   
-}
-.firstbreakfast p{
-    padding-right: 200px;
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-.secbreakfast{
-    display: flex;
-    justify-content: space-between;
-}
-.secbreakfast img{
-    padding-left: 30px; 
-}
-.secbreakfast p{
-    padding-right: 200px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.thirdbreakfast{
-    display: flex;
-    justify-content: space-between;
-}
-.thirdbreakfast img{
-    padding-left: 30px; 
-}
-.thirdbreakfast p{
-    padding-right: 200px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.fourthbreakfast{
-    display: flex;
-    justify-content: space-between;
-}
-.fourthbreakfast img{
-    padding-left: 30px; 
-
-}
-.fourthbreakfast p{
-    padding-right: 200px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.food h2{
-    color: rgb(248, 247, 246);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: light;
-    padding-left: 20px;
-    padding-top: 20px; 
-
-}
-.firstfood{
-    display: flex;
-    justify-content: space-between;
-
-}
-.firstfood img{
-    padding-left: 30px; 
-}
-.firstfood p{
-    padding-right: 200px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.secfood{
-    display: flex;
-    justify-content: space-between;
-}
-.secfood img{
-    padding-left: 30px; 
-}
-.secfood p{
-    padding-right: 200px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.thirdfood{
-    display: flex;
-    justify-content: space-between;
-}
-.thirdfood img{
-    padding-left: 30px; 
-}
-.thirdfood p{
-    padding-right: 200px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif; 
-}
-.fourthfood{
-    display: flex;
-    justify-content: space-between;
-}
-.fourthfood img{
-    padding-left: 30px; 
-}
-.fourthfood p{
-    padding-right: 200px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif; 
-}
-.fifthfood{
-    display: flex;
-    justify-content: space-between;
-}
-.fifthfood img{
-    padding-left: 30px; 
-}
-.fifthfood p{
-    padding-right: 200px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif; 
-}
-.nav-kitisuru{
-    width: 45%;
-    position: fixed;
-    bottom: 0;
-    background-color: black;
-    overflow: hidden;
-    text-align: center;
-    margin-bottom: 30px;
-    border-radius: 30px; 
-    padding-top: 20px; 
-}
-.nav-kitisuru a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding:10px 14px 10px ;
-}
-.drinks h2{
-    color: rgb(248, 247, 246);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: light;
-    padding-left: 20px;
-    padding-top: 20px;
-    
-
-}
-.freshjuices h3{
-    color: rgb(231, 87, 34);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: lighter;
-    padding-left: 20px;
-
-}
-.mango{
-    padding-left: 30px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif; 
-    display: flex;
-    justify-content: space-around;
-}
-.pineapple{
-    padding-left: 30px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif; 
-    display: flex;
-    justify-content: space-around;
-
-}
-.tomato{
-    padding-left: 30px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif; 
-    display: flex;
-    justify-content: space-around;
-
-}
-.passion{
-    padding-left: 30px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif; 
-    display: flex;
-    justify-content: space-around;
-
-}
-.sugercane{
-    padding-left: 30px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif; 
-    display: flex;
-    justify-content: space-around;
-    
-
-}
-.contactpage{
-    background-image: url("image folder/AdobeStock_979171179_Preview.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 45vw;
-    width: 100vw;
-}
-.contactdetails{
-    display: flex;
-    gap: 1cm;
-    padding-left: 350px;
-    
-    
-
-}
-.sectiona{
-    color: white;
-    border: solid white 2px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 15px;
-   
-    
-    
-}
-.sectiona a{
-    text-decoration: none;
-    color: rgb(228, 233, 233);
-}
-.sectionb{
-    color: white;
-    border: solid white 2px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 15px;
-    
-
-}
-.sectionb a{
-    text-decoration: none;
-    color: rgb(235, 243, 243);
-}

@@ -1,23 +1,40 @@
 .nav-bottom{
-    width: 50%;
-    position: fixed;
-    bottom: 0;
+    border: solid 0px;
     background-color: black;
-    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin-left: 30%;
+    gap: 1cm;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 10px;
+    padding-top:10px ;
+    bottom: 0;
+    overflow: hidden;
+    position: fixed;
+    padding: 20px ;
     margin-bottom: 30px;
-    border-radius: 30px; 
-    padding-top: 30px;   
+    a:hover{
+        transform: scale(1);
+        color: rgb(17, 17, 17);
+       }
+    /* position: relative; */
+   
 }
 .nav-bottom a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
     text-decoration: none;
-    padding:10px 14px 10px ;
+    color: white;
+ 
 }
+ #reservations{
+    background-color: gray;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+ }
+
 logo{
     display: flex;
     justify-content: center;
@@ -42,9 +59,10 @@ body{
 
 }
 .accra{
-    background-image: url("image folder/pexels-celine-3776818-16155464.jpg");
+    background-image: url("pexels-meruyert-gonullu-6151967.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 46vw;
     width: 34vw;
     justify-content: center;

@@ -1,0 +1,127 @@
+.menu{
+    display: flex;
+    position: absolute;
+}
+.menuKitisuru{
+    background-image: url("pexels-globetrotter-29515096.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    height: 45vw;
+    /* position: relative; */
+    
+   
+}
+.menuKitisuru h3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: orange;
+    padding-top: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menuKitisuru h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bolder;
+}
+.menuKitisuru a{
+    display: flex;
+    justify-content: center;
+    color: rgb(247, 241, 241);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-underline-offset: none;
+   font-size: 20px;
+ 
+
+}
+.menuKilimani{
+    background-image: url("image folder/pexels-pavel-danilyuk-8775036.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(3);
+    width: 50vw;
+    height: 45vw;
+    /* position: relative; */
+}
+.menuKilimani h3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: orange;
+    padding-top: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.menuKilimani h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bolder;
+
+}
+.menuKilimani a{
+    display: flex;
+    justify-content: center;
+    color: rgb(253, 248, 248);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-underline-offset: none;
+   font-size: 20px;
+
+}
+.nav-bottom{
+    border: solid 0px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1cm;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 10px;
+    padding-top:10px ;
+    bottom: 0;
+    overflow: hidden;
+    position: fixed;
+    padding: 20px ;
+    margin-bottom: 30px;
+    a:hover{
+        transform: scale(1);
+        color: rgb(17, 17, 17);
+       }
+    /* position: relative; */
+   
+}
+.nav-bottom a{
+    text-decoration: none;
+    color: white;
+ 
+}
+ #reservations{
+    background-color: gray;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+ }
+body{
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 0px;
+    background-color: rgb(19, 18, 18)
+}
+.menupagelogo{
+    /* position: absolute;  */
+}
+.menuicons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+   
+}

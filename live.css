@@ -2,9 +2,13 @@
 
 .livey{
     display: flex;
-    background-image: url("image folder/pexels-pavel-danilyuk-8775036.jpg");
+    background-image: url("pexels-cottonbro-9418230.jpg");
     position: fixed;
-    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 46vw;
 }
 body{
     margin: 0%;
@@ -92,4 +96,146 @@ body{
 }
 .jack{
     padding-top: 30px;
+}
+.nav-bottom{
+    border: solid 0px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1cm;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 10px;
+    padding-top:10px ;
+    bottom: 0;
+    overflow: hidden;
+    position: fixed;
+    padding: 20px ;
+    margin-bottom: 30px;
+    a:hover{
+        transform: scale(1);
+        color: rgb(17, 17, 17);
+       }
+    /* position: relative; */
+   
+}
+.nav-bottom a{
+    text-decoration: none;
+    color: white;
+ 
+}
+ #reservations{
+    background-color: gray;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+ }
+
+
+@media  only screen and (max-width:300){
+
+
+.livey{
+    /* display: flex; */
+    background-image: url("image folder/pexels-pavel-danilyuk-8775036.jpg");
+    /* position: fixed; */
+    width: 10vw;
+    background-size: cover;
+    
+    /* background-position: center; */
+}
+body{
+    margin: 0%;
+}
+.livecontent{
+    /* padding-top: 150px; */
+    /* width: 50vw; */
+    /* gap: 5cm; */
+    overflow: auto;
+
+    h4{
+        color: white;
+        font-size: medium;
+        /* display: flex; */
+        justify-content: center;
+        font-weight: lighter;
+    }
+    h1{
+        color:rgb(231, 86, 34);
+        font-weight: lighter;
+        /* display: flex; */
+        justify-content: center;
+        font-size: large;
+    }
+    img{
+        /* display: flex; */
+        justify-content: center;
+        /* padding-left: 290px; */
+        width: 50vw;
+        
+    }
+}
+.live{
+    width: 50vw;
+}
+.livefadhilee{
+    /* display: flex; */
+    gap: 1cm;
+    p{
+        color: rgb(224, 88, 39);
+    }
+    img:hover{
+        transform: scale(1.1);
+        
+    }
+    h1{
+        color: white;
+        font-weight: lighter;
+    }
+
+}
+.liveochiko{
+    /* display: flex; */
+    gap: 1cm;
+    p{
+        color: rgb(224, 88, 39);
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+    h1{
+        color: white;
+        font-weight: lighter;
+    }
+}
+.livejack{
+    /* display: flex; */
+    gap: 1cm;
+    p{
+        color: rgb(224, 88, 39);
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+    h1{
+        color: white;
+        font-weight: lighter;
+    }
+}
+.fadh{
+    padding-top: 10px;
+
+}
+.ochiko{
+    padding-top: 10px;
+
+}
+.jack{
+    padding-top: 01px;
+}
+
+
 }

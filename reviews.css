@@ -52,30 +52,47 @@
 }
 
 .nav-bottom{
-    width: 50%;
-    position: fixed;
-    bottom: 0;
-    background-color: black;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 30%;
-    margin-bottom: 30px;
-    border-radius: 30px; 
-    padding-top: 30px;   
+  border: solid 0px;
+  background-color: black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1cm;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 10px;
+  padding-top:10px ;
+  bottom: 0;
+  overflow: hidden;
+  position: fixed;
+  padding: 20px ;
+  margin-bottom: 30px;
+  /* position: relative; */
+  a:hover{
+    transform: scale(1);
+    color: rgb(17, 17, 17);
+   }
+ 
 }
 .nav-bottom a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding:10px 14px 10px ;
+  text-decoration: none;
+  color: white;
+
 }
+#reservations{
+  background-color: gray;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
 .reviewpage{
     background-color: rgb(19, 18, 18);
     width: 100vw;
     position: fixed;
-    height: 45vw;
+    height: 46vw;
 
 }
 .button{

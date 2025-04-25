@@ -1,0 +1,298 @@
+.kitisuru{
+    display: flex;
+}
+.picture{
+    background-image: url("image folder/pexels-rachel-claire-4997999.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98vw;
+    height: 45vw;
+    
+}
+.picture img{
+    width: 200px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+
+}
+.picture h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(63, 62, 62);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.picture h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+   color: rgb(235, 89, 36);
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+
+}
+.menudetails{
+    background-color: rgb(34, 33, 33);
+    width: 98vw;
+    height: 45vw;
+    overflow: auto;
+}
+
+.menunav a{
+    color: rgb(216, 84, 36);
+     padding-left: 80px;
+     text-decoration: none;
+    
+}
+.breakfast h2{
+    color: rgb(248, 247, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: light;
+    padding-left: 20px;
+    padding-top: 20px; 
+}
+.breakfast p{
+    color: rgb(248, 247, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: light;
+    padding-left: 20px;
+    /* padding-top: 20px;  */
+}
+.firstbreakfast{
+    display: flex;
+    justify-content: space-between;
+}
+.firstbreakfast img{
+       padding-left: 30px;   
+}
+.firstbreakfast p{
+    padding-right: 200px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.secbreakfast{
+    display: flex;
+    justify-content: space-between;
+}
+.secbreakfast img{
+    padding-left: 30px; 
+}
+.secbreakfast p{
+    padding-right: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thirdbreakfast{
+    display: flex;
+    justify-content: space-between;
+}
+.thirdbreakfast img{
+    padding-left: 30px; 
+}
+.thirdbreakfast p{
+    padding-right: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fourthbreakfast{
+    display: flex;
+    justify-content: space-between;
+}
+.fourthbreakfast img{
+    padding-left: 30px; 
+
+}
+.fourthbreakfast p{
+    padding-right: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.food h2{
+    color: rgb(248, 247, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: light;
+    padding-left: 20px;
+    padding-top: 20px; 
+
+}
+.firstfood{
+    display: flex;
+    justify-content: space-between;
+
+}
+.firstfood img{
+    padding-left: 30px; 
+}
+.firstfood p{
+    padding-right: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secfood{
+    display: flex;
+    justify-content: space-between;
+}
+.secfood img{
+    padding-left: 30px; 
+}
+.secfood p{
+    padding-right: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thirdfood{
+    display: flex;
+    justify-content: space-between;
+}
+.thirdfood img{
+    padding-left: 30px; 
+}
+.thirdfood p{
+    padding-right: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.fourthfood{
+    display: flex;
+    justify-content: space-between;
+}
+.fourthfood img{
+    padding-left: 30px; 
+}
+.fourthfood p{
+    padding-right: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.fifthfood{
+    display: flex;
+    justify-content: space-between;
+}
+.fifthfood img{
+    padding-left: 30px; 
+}
+.fifthfood p{
+    padding-right: 200px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.nav-kitisuru{
+    border: solid 0px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1cm;
+    margin-left: 1%;
+    margin-right: 2%;
+    padding-bottom: 10px;
+    padding-top:10px ;
+    bottom: 0;
+    overflow: hidden;
+    position: fixed;
+    padding: 20px ;
+    margin-bottom: 30px;
+    a:hover{
+        transform: scale(1);
+        color: rgb(17, 17, 17);
+       }
+}
+.nav-kitisuru a{
+   color: white;
+   text-decoration: none;
+    
+}
+
+#reservations{
+    background-color: gray;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+   
+}
+.drinks h2{
+    color: rgb(248, 247, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: light;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+
+}
+.freshjuices h3{
+    color: rgb(231, 87, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 20px;
+
+}
+.mango{
+    padding-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    justify-content: space-around;
+}
+.pineapple{
+    padding-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    justify-content: space-around;
+
+}
+.tomato{
+    padding-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    justify-content: space-around;
+
+}
+.passion{
+    padding-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    justify-content: space-around;
+
+}
+.sugercane{
+    padding-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.contactpage{
+    background-image: url("image folder/AdobeStock_979171179_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vw;
+    width: 100vw;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 0px;
+    background-color: rgb(29, 28, 28);
+}
+
